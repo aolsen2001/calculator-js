@@ -27,12 +27,17 @@ body {
     flex-direction: row;
     margin: auto;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-end;
     width: 400px;
     height: 100px;
     background-color: #b8bdcc;
     border: 2px solid black;
     border-radius: 25px;
+}
+
+.displayval {
+    padding-right: 20px;
+    font-size: 52px;
 }
 
 .buttoncontainer {
@@ -42,16 +47,34 @@ body {
     justify-content: start;
     align-content: flex-start;
     margin: auto;
-    width: 400px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 440px;
     height: 540px;
     gap: 10px;
-    background-color: #1c2749;
-    /* border: 2px solid black;
-    border-radius: 25px; */
 }
 
 .buttoncontainer>button {
+    font-size: 24px;
     width: 100px;
     height: 75px;
     border-radius: 25px;
+}
+
+#zerobutton {
+    width: 210px;
+}
+
+.buttonfooter {
+    padding: 50px;
+    margin: auto;
+    color: white;
+}
+
+.buttonfooter>a {
+    color: white;
+}
+
+.buttonfooter>a:hover, a:visited {
+    color: rgb(167, 58, 189);
 }
