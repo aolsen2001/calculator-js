@@ -6,7 +6,7 @@ body {
     justify-content: space-between;
     height: 100vh;
     margin: 0;
-    background-color: #b8bdcc;
+    background-color: #d1d5e0;
     font-family: "Roboto", sans-serif;
 }
 
@@ -24,12 +24,16 @@ body {
 
 .display {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: auto;
-    align-items: center;
-    justify-content: flex-end;
+    justify-content: space-around;
+    align-items: flex-end;
+    text-align: right;
+    word-wrap: break-word;
+    word-break: break-all;
+    height: auto;
+    min-height: 100px;
     width: 400px;
-    height: 100px;
     background-color: #b8bdcc;
     border: 2px solid black;
     border-radius: 25px;
@@ -37,7 +41,7 @@ body {
 
 .displayval {
     padding-right: 20px;
-    font-size: 52px;
+    font-size: 36px;
 }
 
 .buttoncontainer {
@@ -58,7 +62,7 @@ body {
     font-size: 24px;
     width: 100px;
     height: 75px;
-    border-radius: 25px;
+    border-radius: 50px;
 }
 
 #zerobutton {
